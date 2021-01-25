@@ -23,12 +23,60 @@
     <h2 class="lecture-title">Collapse / Accordion</h2>
     
     <main class="container">
-            <div class="row">
-                  <div class="col-8">
-                        
+      <div class="row">
+            <div class="col-8">
+                  <div id="servicios">
+                      <div class="card">
+                              <div class="card-header" id="servicio1">
+                                  <h2 class="mb-0">
+                                      <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion1" 
+                                              aria-expanded="true" aria-controls="descripcion1" >
+                                                  Desarrollo Web
+                                      </button>
+                                  </h2>
+                              </div><!--#servicio1-->
+                              <div id="descripcion1" class="collapse show" aria-labelledby="servicio1" data-parent="#servicios">
+                                  <div class="card-body">
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem repellat qui et ipsam esse temporibus iste beatae eos non nesciunt inventore, quod modi maiores reiciendis illo quam! Quod eveniet, quisquam.
+                                  </div>
+                              </div>
+                      </div><!--.card-->
+                      
+                      <div class="card">
+                              <div class="card-header" id="servicio2">
+                                  <h2 class="mb-0">
+                                      <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion2" 
+                                              aria-expanded="false" aria-controls="descripcion2" >
+                                                  Aplicaciones Móviles
+                                      </button>
+                                  </h2>
+                              </div><!--#servicio1-->
+                              <div id="descripcion2" class="collapse" aria-labelledby="servicio2" data-parent="#servicios">
+                                  <div class="card-body">
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem repellat qui et ipsam esse temporibus iste beatae eos non nesciunt inventore, quod modi maiores reiciendis illo quam! Quod eveniet, quisquam.
+                                  </div>
+                              </div>
+                      </div><!--.card-->
+                      <div class="card">
+                              <div class="card-header" id="servicio3">
+                                  <h2 class="mb-0">
+                                      <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion3" 
+                                              aria-expanded="false" aria-controls="descripcion3" >
+                                                  Tiendas Virtuales
+                                      </button>
+                                  </h2>
+                              </div><!--#servicio1-->
+                              <div id="descripcion3" class="collapse" aria-labelledby="servicio3" data-parent="#servicios">
+                                  <div class="card-body">
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem repellat qui et ipsam esse temporibus iste beatae eos non nesciunt inventore, quod modi maiores reiciendis illo quam! Quod eveniet, quisquam.
+                                  </div>
+                              </div>
+                      </div><!--.card-->
                   </div>
             </div>
-    </main>
+      </div>
+    </main> 
+
     
     
 
