@@ -26,12 +26,28 @@
             <div class="row">
                   <div class="col-12">
                     <div id="slider" class="carousel slide" data-ride="carousel">
+
+                      <ol class="carousel-indicators">
+                        <li data-target="#slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider" data-slide-to="1"></li>
+                        <li data-target="#slider" data-slide-to="2"></li>
+                        <li data-target="#slider" data-slide-to="3"></li>
+                        <li data-target="#slider" data-slide-to="4"></li>
+                      </ol> 
+
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <img class="img-fluid d-block" src="img/slide_01.jpg">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h3>Visita Londres este Verano</h3>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
                         </div>
                         <div class="carousel-item">
                           <img class="img-fluid d-block" src="img/slide_02.jpg">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h3>Big Ben</h3>
+                        </div>
                         </div>
                         <div class="carousel-item">
                           <img class="img-fluid d-block" src="img/slide_03.jpg">
@@ -43,6 +59,14 @@
                           <img class="img-fluid d-block" src="img/slide_05.jpg">
                         </div>
                       </div> <!-- carousel-inner -->
+                        <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div> <!-- data-ride -->
                   </div> <!-- col -->
             </div> <!-- row -->
