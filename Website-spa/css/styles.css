@@ -1,1 +1,41 @@
-/*** Add your styles here **/
+/** Sociales **/
+.sociales ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+.sociales ul li a::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #e082a8;
+}
+
+.sociales ul li a[href*="facebook.com"]::before{
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f082";
+}
+.sociales ul li a[href*="twitter.com"]::before{
+    font-family: "Font Awesome 5 Brands"; 
+    content: '\f081';
+}
+.sociales ul li a[href*="instagram.com"]::before{
+    font-family: "Font Awesome 5 Brands"; 
+    content: '\f16d';
+}
+.sociales ul li a[href*="pinterest.com"]::before{
+    font-family: "Font Awesome 5 Brands"; 
+    content: '\f0d2';
+}
+.sociales ul li a[href*="youtube.com"]::before{
+    font-family: "Font Awesome 5 Brands"; 
+    content: '\f167';
+}
