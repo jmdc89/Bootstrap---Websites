@@ -237,3 +237,8 @@ body {
     font-size: 1.2rem;
 }
 
+/* footer */
+.copyright {
+    color: #979797;
+    font-size: .8rem;
+}
