@@ -271,3 +271,10 @@ body {
     line-height: 2.2rem;
     font-family: 'Lato', sans-serif;
 }
+
+/** sidebar **/
+
+aside {
+    background-color: #8ed3cc;
+    color: #ffffff;
+}
