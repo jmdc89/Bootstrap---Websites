@@ -60,6 +60,12 @@ body {
 
 /** NAVEGACION **/
 
+.navegacion .spa {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
 .navegacion {
     background-color: #8ed3cc;
 }
